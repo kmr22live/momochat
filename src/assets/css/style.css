@@ -125,6 +125,7 @@ body {
 .users {
   -ms-overflow-style: none;
   scrollbar-width: none;
+  /* padding-bottom: 20px; */
 }
 .users::-webkit-scrollbar {
   display: none; /* Safari and Chrome */
@@ -235,9 +236,13 @@ body {
   width: 0px;
 }
 .users-list a {
-  padding: 10px 15px 10px 0px;
+  padding: 10px 15px 10px 10px;
   margin-bottom: 15px;
-  border-bottom-color: #f1f1f1;
+  border-radius: 15px;
+}
+.users-list a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  cursor: pointer;
 }
 .users-list a:last-child {
   margin-bottom: 0px;
@@ -595,3 +600,13 @@ body {
   margin-top: 50px;
   z-index: 500;
 } */
+/* #userlist-model {
+  z-index: 99999;
+} */
+.userlist-insearch {
+  margin-left: 20px;
+  cursor: pointer;
+  background-color: transparent;
+  /* border: 1px solid red; */
+  text-align: center;
+}

@@ -74,7 +74,7 @@ const ChatSelectChats = () => {
         ))}
       {Object.keys(chats).length === 0 && (
         <div className="search-welcome">
-          Welcome to MoMo Chat's! This is an anonymous chat app. You can message
+          Welcome to MoMo Chat! This is an anonymous chat app. You can message
           anyone within this app with a unique username. Let's start messaging
           with <span style={{ fontWeight: "700" }}>momo</span>. Search{" "}
           <span style={{ fontWeight: "700" }}>momo</span> in the search bar and
